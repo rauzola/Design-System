@@ -4,9 +4,10 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --parallel"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   },
   "devDependencies": {
-    "turbo": "^1.5.5"
+    "turbo": "^1.7.4"
   }
 }
