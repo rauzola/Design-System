@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
 
       - run: npm run build
-       env:
+        env:
           TURBO_TOKEN: LAsQh1OSwrUYBHurRTSJK1ah
           TURBO_TEAM: rauzolaui
 
