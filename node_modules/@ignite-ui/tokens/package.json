@@ -1,6 +1,6 @@
 {
-  "name": "@rauzola-ui/tokens",
-  "version": "1.0.0",
+  "name": "@ignite-ui/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@rauzola-ui/ts-config": "*",
-    "@rauzola-ui/eslint-config": "*",
+    "@ignite-ui/ts-config": "*",
+    "@ignite-ui/eslint-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5"
   }
