@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
-    "turbo": "^1.7.4"
+    "turbo": "^1.8.1"
   },
   "dependencies": {
     "@storybook/addon-a11y": "^6.5.16"
