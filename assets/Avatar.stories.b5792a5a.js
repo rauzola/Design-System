@@ -1,0 +1,2 @@
+import{A as t}from"./index.9992861e.js";import"./index.75f3241f.js";import"./iframe.b43d38ed.js";import"./index.7607e5e1.js";import"./jsx-runtime.39c7e260.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/rauzola.png",alt:"Raul Sigoli"},argTypes:{src:{control:{type:"text"}}}},c={},l={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,l as WithFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.b5792a5a.js.map
