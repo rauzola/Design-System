@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\raul_\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @radix-ui/react-tooltip
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Eclipse Adoptium\jdk-11.0.18.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\raul_\AppData\Local\Microsoft\WindowsApps;C:\Users\raul_\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\raul_\AppData\Local\GitHubDesktop\bin;C:\Users\raul_\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Design-System\node_modules\turbo-windows-64\bin\go-turbo.exe'
+
+npm manifest: 
+  {
+    "name": "@rauzola-ignite-ui/react",
+    "version": "2.0.1",
+    "description": "",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+      "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+      "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+      "lint": "eslint src/**/*.ts* --fix"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "@rauzola-ignite-ui/eslint-config": "*",
+      "@rauzola-ignite-ui/tokens": "*",
+      "@rauzola-ignite-ui/ts-config": "*",
+      "@types/react": "^18.0.21",
+      "@types/react-dom": "^18.0.6",
+      "react": "^18.2.0",
+      "tsup": "^6.5.0",
+      "typescript": "^4.9.5"
+    },
+    "dependencies": {
+      "@radix-ui/react-avatar": "^1.0.1",
+      "@radix-ui/react-checkbox": "^1.0.1",
+      "@stitches/react": "^1.2.8",
+      "phosphor-react": "^1.4.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
